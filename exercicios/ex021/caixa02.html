@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+        }
+        header {
+            color: black;
+            background-color: lightblue;
+            border-radius: 10px;
+            border: solid;     
+        }
+        main > section#noticias > h2 {
+            margin-top: 20px;
+            background-color: darkgray;
+            padding: 20px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+            
+        }
+        main > section#noticias > p {
+            background-color: white;
+        }
+        
+        main > section#assuntos {
+            font-weight: bolder;
+            background-color: lightgreen;
+            border: solid;
+            border-color: lightgreen;
+        }
+        footer > p{
+            color: white;
+            background-color: black;
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Jogos e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <h2>Notícias sobre Tecnologia</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates doloremque delectus necessitatibus, quisquam itaque cum tenetur a reiciendis beatae unde perspiciatis id fugiat nam facere soluta earum aperiam nihil magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum hic, blanditiis animi exercitationem totam sit temporibus suscipit voluptates explicabo aut consectetur laudantium magnam optio eius non. Porro magni alias enim!</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marcos Lemos</p>
+    </footer>
+</body>
+</html>
