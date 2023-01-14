@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Uso de tabelas grandes</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: 400px;
             border-collapse: collapse;
+            width: 600px;
+        }
+        th, tfoot {
+            background-color: lightgray;
+            color: white;
+            text-shadow: 1px 1px 1px black;
         }
         th, td {
             border: 1px solid black;
             padding: 10px;
+            text-align: center;
         }
-        thead, tfoot {
-            background-color: darkgray;
-            color: white;
-            text-shadow: 1px 1px 1px black;
-        }
-        td.num {
-            text-align: right;
-        }
+
     </style>
 </head>
 <body>
-    <h1>Uso de tableas grandes</h1>
     <table>
         <thead>
             <tr>
@@ -39,21 +37,21 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td class="num">45 919 049</td>
+                <td>46 024 937</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td class="num">21 168 791</td>
+                <td>19 597 330</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="num">17 264 943</td>
-            </tr>  
+                <td>15 989 929</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de Habitantes</th>
-                <td>921313</td>
+                <td>81.612.196</td>
             </tr>
         </tfoot>
     </table>
